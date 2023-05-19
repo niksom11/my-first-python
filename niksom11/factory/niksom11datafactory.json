@@ -1,0 +1,9 @@
+{
+	"name": "niksom11datafactory",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "bac2e7dc-f66d-4e45-862e-977b9a443fd0",
+		"tenantId": "30a7733f-2f14-48be-aa54-fc33fce6bde9"
+	}
+}
