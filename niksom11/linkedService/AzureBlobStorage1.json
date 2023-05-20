@@ -6,7 +6,7 @@
 		"type": "AzureBlobStorage",
 		"typeProperties": {
 			"connectionString": "DefaultEndpointsProtocol=https;AccountName=niksom11storage;EndpointSuffix=core.windows.net;",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDQwMkExNEIwLTMyMDQtNDk0RC1BMTIxLUMyMzJEQzkxNDkxN19iMWExN2E5Mi1mMmEzLTQ2OTctYmZiMS1jYzAzOTJhYjE4MjQiDQp9"
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDQwMkExNEIwLTMyMDQtNDk0RC1BMTIxLUMyMzJEQzkxNDkxN180NjMxOWI0Ny1hYjlhLTRkMjMtYmI5Yi01MjJiYjk0MTJhNDEiDQp9"
 		}
 	}
 }
