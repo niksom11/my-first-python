@@ -10,6 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
+				"fileName": "MW-Block-deal-07-May-2023.csv",
+				"folderPath": "niks",
 				"container": "input"
 			},
 			"columnDelimiter": ",",
