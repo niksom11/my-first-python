@@ -1,0 +1,72 @@
+{
+	"name": "SourceDataset_j0x",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "practise"
+			},
+			"columnDelimiter": ",",
+			"rowDelimiter": "\n",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "SESSION \n",
+				"type": "String"
+			},
+			{
+				"name": "SYMBOL \n",
+				"type": "String"
+			},
+			{
+				"name": "SERIES \n",
+				"type": "String"
+			},
+			{
+				"name": "OPEN \n",
+				"type": "String"
+			},
+			{
+				"name": "HIGH \n",
+				"type": "String"
+			},
+			{
+				"name": "LOW \n",
+				"type": "String"
+			},
+			{
+				"name": "LTP \n",
+				"type": "String"
+			},
+			{
+				"name": "CLOSE \n",
+				"type": "String"
+			},
+			{
+				"name": "%CHNG \n",
+				"type": "String"
+			},
+			{
+				"name": "VOLUME \n(shares)",
+				"type": "String"
+			},
+			{
+				"name": "VALUE ",
+				"type": "String"
+			},
+			{
+				"name": "CA \n",
+				"type": "String"
+			}
+		]
+	}
+}
