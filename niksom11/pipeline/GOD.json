@@ -65,13 +65,19 @@
 							"typeProperties": {
 								"source": {
 									"type": "DelimitedTextSource",
+									"additionalColumns": [
+										{
+											"value": "$$FILEPATH"
+										}
+									],
 									"storeSettings": {
 										"type": "AzureBlobStorageReadSettings",
 										"recursive": true,
-										"wildcardFileName": {
-											"value": "@item().name",
+										"wildcardFolderPath": {
+											"value": "@activity('Get Metadata1').outputitem().csv file",
 											"type": "Expression"
 										},
+										"wildcardFileName": "hardwork",
 										"enablePartitionDiscovery": false
 									},
 									"formatSettings": {
@@ -81,7 +87,14 @@
 								"sink": {
 									"type": "DelimitedTextSink",
 									"storeSettings": {
-										"type": "AzureBlobStorageWriteSettings"
+										"type": "AzureBlobStorageWriteSettings",
+										"copyBehavior": "MergeFiles",
+										"metadata": [
+											{
+												"name": "output",
+												"value": "angel"
+											}
+										]
 									},
 									"formatSettings": {
 										"type": "DelimitedTextWriteSettings",
