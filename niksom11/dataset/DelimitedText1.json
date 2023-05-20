@@ -10,8 +10,9 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "csv file.csv",
-				"container": "input"
+				"fileName": "hardwork",
+				"folderPath": "nikhil",
+				"container": "dfdemo"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
