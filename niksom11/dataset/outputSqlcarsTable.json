@@ -1,0 +1,41 @@
+{
+	"name": "outputSqlcarsTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "output sql",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "SR",
+				"type": "varchar"
+			},
+			{
+				"name": "NAME",
+				"type": "varchar"
+			},
+			{
+				"name": "GENDER",
+				"type": "varchar"
+			},
+			{
+				"name": "AGE",
+				"type": "varchar"
+			},
+			{
+				"name": "DATE",
+				"type": "varchar"
+			},
+			{
+				"name": "COUNTRY",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "person1"
+		}
+	}
+}
